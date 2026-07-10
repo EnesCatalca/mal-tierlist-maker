@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+.tier-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 transparent;
+}
+
+.tier-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.tier-scroll::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 2px;
+}
