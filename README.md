@@ -44,7 +44,3 @@ Geliştirme sunucusu, MAL isteklerini CORS engeline takılmadan iletmek için `/
 1. **XML yolu:** MAL → Profil → *Export Data* → "Export Anime List" ile indirilen XML dosyası tarayıcıda ayrıştırılır; yalnızca *Completed* durumundaki animeler alınır.
 2. **Kullanıcı adı yolu:** Liste, MAL'ın `load.json` uç noktasından sayfalanarak çekilir. Tarayıcıda CORS engelini aşmak için istekler geliştirme sunucusundaki (veya Electron içindeki yerel sunucudaki) proxy üzerinden geçer. Listenin MAL'da herkese açık olması gerekir.
 3. Kapak görselleri önce AniList'ten 50'lik gruplar hâlinde, bulunamayanlar Jikan'dan tek tek çekilir; istekler API limitlerine uymak için bekleme süreleriyle sıralanır.
-
-## Lisans
-
-MIT
